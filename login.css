@@ -1,0 +1,105 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #000; color: #f5f5f3; padding: 40px 0; display: flex; justify-content: center; }
+        .container { max-width: 1600px; width: 90%; margin: 0 auto; }
+        .alert-sukses { background-color: #141412; border: 1px solid #e5c185; color: #e5c185; padding: 15px; border-radius: 6px; margin-bottom: 30px; text-align: center; font-weight: bold; }
+        .nav-sim { display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px; border-bottom: 1px solid #141412; padding-bottom: 20px; }
+        .logo { font-size: 20pt; color: #e5c185; font-weight: bold; font-family: serif; }
+        .menu { display: flex; gap: 30px; list-style: none; font-size: 10pt; color: #a3a3a1; }
+        .menu li.active { color: #fff; border-bottom: 2px solid #e5c185; padding-bottom: 5px; }
+        .btn-gs { background: #e5c185; color: #000; padding: 10px 24px; border-radius: 8px; font-weight: bold; font-size: 10pt; }
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.register-box {
+    background-color: #111111;
+    border: 1px solid #4a3e2e; 
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.register-box h2 {
+    color: #b89c72; 
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.register-box .subtitle {
+    color: #8a8a8a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    background-color: #1e1e1e;
+    border: 1px solid #4a3e2e;
+    border-radius: 15px;
+    padding: 16px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input::placeholder {
+    color: #666666;
+}
+
+.input-group input:focus {
+    border-color: #b89c72; 
+}
+
+
+.btn-submit {
+    width: 100%;
+    max-width: 320px; 
+    background-color: #6d5b43;
+    color: #000000;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #8c7557; 
+}
+
+.login-redirect {
+    color: #8a8a8a;
+    font-size: 14px;
+}
+
+.login-redirect a {
+    color: #b89c72;
+    text-decoration: none;
+    border-bottom: 1px solid #b89c72; 
+    padding-bottom: 2px;
+}
+
+.login-redirect a:hover {
+    color: #dfbe8c;
+    border-color: #dfbe8c;
+}
